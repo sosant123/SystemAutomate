@@ -21,7 +21,7 @@ public class SystemAutomate {
 
        utils.delay(500);
 
-     /*  WebElement actualPageProduct = driver.findElement(By.id("item_4_title_link"));
+  WebElement actualPageProduct = driver.findElement(By.id("item_4_title_link"));
        String expectedPageProduct = "Sauce Labs Backpack";
        Assert.isTrue(expectedPageProduct.equals(actualPageProduct.getText(), "Sauce Labs Backpack not found"));
 
@@ -30,7 +30,7 @@ public class SystemAutomate {
             system.out.println(myTitle);
             String expected_title= "Swag Labs"
     Assert.asserttrue(myTitle, expected_title);
-        system.out.println(myTitle);*/
+        system.out.println(myTitle);
 
 
 // Item Added to cart
